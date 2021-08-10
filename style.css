@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  font-family: "Freckle Face", cursive;
+}
+
+/* Header*/
+button,
+h2,
+a {
+  /*font-size: 16px;*/
+  text-decoration: none;
+  color: #121417;
+}
+header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 30px 5%;
+}
+.logo {
+  font-size: 28px;
+}
+
+.navbar a {
+  font-size: 24px;
+  padding: 0 18px;
+  transition: all 0.3s ease 0;
+  border-radius: 5px;
+}
+.credentials a button {
+  font-size: 22px;
+  padding: 0 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease 0;
+}
+button:hover {
+  background-color: #dee2e6;
+}
+.navbar a:hover {
+  background-color: #dee2e6;
+}
+
+/*Header*/
+
+/*Content*/
+
+.content {
+  min-height: 78vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  margin: auto;
+  flex-direction: column;
+}
+.date {
+  font-size: 3.5rem;
+}
+.time {
+  font-size: 3rem;
+}
+
+/*Content*/
+
+/*Footer*/
+.footer {
+  margin: 0 600px;
+}
+
+li {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/*Footer*/
